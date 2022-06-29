@@ -1,0 +1,197 @@
+/*Styling the html languages using external css*/
+/*styling the body of cv and portfolio.html*/
+body{
+    background-image: url("imgs.jpg");
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+}
+/* styling nav bar*/
+nav{
+    float: right;
+    margin-top: 5px;
+    font-size: medium; 
+}
+/*styling text of a tag*/
+a{
+    color: rgb(0, 0, 0);
+    padding:5px 20px;
+    border: 1px solid rgb(100, 22, 22);
+}
+/*making hover in the text of a tag*/
+a:hover{
+    background-color: rgb(255, 250, 184);
+    color:rgb(14, 13, 13);
+    cursor: pointer;
+}
+/*styling the page to show white color in nav bar when page is opened*/
+a.active{
+    background-color: #fff;
+    color: black;
+}
+/*styling container class*/
+.container{
+    display:flex;
+}
+/*styling section class*/
+.section{
+    flex:75%;
+    margin:30px;
+    padding:20px;
+    background-color: transparent;
+}
+/*styling cv class*/
+.cv{
+    margin-top: 5px;
+    margin-left: 12%;
+    margin-right: 12%;
+    border: 10px solid rgb(88, 88, 129);
+    background-color: #c8ecb3;
+}
+/*styling sidebar class*/
+.sidebar{
+    flex:25%;
+    margin:30px;
+    padding:20px;
+    background-color:transparent;                   
+}
+/*styling to hide image when toggle*/
+.hide{
+    display: none;
+}
+/*styling h1 tag*/
+h1{
+   text-align :center;
+   color: rgb(255, 0, 0);
+}
+/*styling h2 tag*/
+h2{
+   text-align :center;
+   font-family: Arial;
+   line-height: 1px;
+   color: rgba(21, 25, 255, 0.993)
+}
+/*styling table tag*/
+table{
+   border:1 solid black;
+   width:100% ;
+   font-size:19px;
+}
+/*styling button tag*/
+button{
+    color: black;
+    padding: 15px 32px;
+    font-size: 0.4cm;
+    cursor:pointer;
+}
+/*styling blur class*/
+.blur{
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    background-image:url("back.jfif");
+    background-size: cover;
+    display:none;
+    height:170vh;
+}
+/*styling change class*/
+.change {
+    display: none;
+    position: absolute;
+    margin-left: 12cm;
+    margin-top: 0.5cm;
+    border: 3px solid #8d0ce4;
+}
+/*styling box class*/
+.box {
+    max-width: 600px;
+    padding: 10px;
+    background:rgba(0,0,0,0.5);
+}
+/*styling h3 tag*/
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding-left:19px;
+    padding-right: 19px;
+  
+}
+/*styling h4 tag*/
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color:Red;
+}
+/*styling p tag*/
+p{
+    font-size: 19px;
+    text-align :justify;
+    color :rgb(255, 255, 255)
+}
+/*styling social media icon*/
+.fa{
+    margin:0 105px;
+    text-align: center;
+    color:rgb(247, 152, 44);
+}
+/*styling picture class*/
+.picture{
+    height:195px;
+    width:245px;
+    padding-left:5cm;
+}
+/*styling open-button class*/
+.open-button {
+    font-size: 19px;
+    background-color: rgb(199, 196, 198);
+    color: rgb(0, 0, 0);
+    padding: 16px 20px;
+    margin-left: 2.5cm;
+    cursor: pointer;
+    opacity: 0.8;
+    position: absolute;
+}
+/*styling cancel-button class*/
+.cancel-button {
+    background-color: transparent;
+    color: rgb(228, 28, 28);
+    padding: 8px 14px;
+    margin-left: 15cm;
+    margin-top: 0cm;
+    font-size: 0.8cm;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+/*styling hover effect in open-button class and cancel-button class*/
+.open-button:hover, .cancel-button:hover{
+    background-color: rgb(255, 250, 184);
+    color:rgb(14, 13, 13);
+    cursor: pointer; 
+}
+/*styling hover effect in button tag*/
+button:hover{
+background-color: rgb(255, 250, 184);
+color:rgb(14, 13, 13);
+cursor: pointer;
+}
+/*styling footer tag*/
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 10;
+    width: 100%;
+    background-color: rgb(114, 114, 228);
+    color: rgb(22, 22, 22);
+    text-align: center;
+}
+/*styling h5 tag*/
+h5{
+    font-size: 19px;
+}
+  
+  
+  
+
+
+

@@ -1,0 +1,79 @@
+/*Styling the html languages using external css
+styling the body of blog.html*/
+body{
+  background-image:url("Untitled.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+/* styling nav bar*/
+nav{
+  float: right;
+  margin-top: 5px;
+  font-size: medium;
+}
+/*styling text of a tag*/
+a{
+  color: rgb(5, 5, 5);
+  padding:5px 20px;
+  border: 1px solid rgb(100, 22, 22); 
+}
+/*making hover in the text of a tag*/
+a:hover{
+  background-color: rgb(255, 250, 184);
+  color:rgb(14, 13, 13);
+  cursor: pointer;
+}
+/*styling the page to show white color in nav bar when page is opened*/
+a.active{
+  background-color: #fff;
+  color: black;
+}
+/*styling the text class*/
+.text{
+  font-size:1cm;
+  line-height: 7px;
+  padding-left: 22px;
+  text-align: left;
+}
+/*styling the texts of table tag*/
+table{
+  text-align: justify;
+  border:1px;
+  width:50%;
+  margin-left:auto; 
+  margin-right:auto;
+}
+/*styling the pragraph*/
+p{
+  font-size: 20px;
+  color:rgb(4, 2, 136);  
+}
+/*styling the div tag*/
+div{
+  background: transparent;
+}
+/*styling the images of the img tag*/
+img{
+  height: 400px;
+  width:600px;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  padding-left: 1.5cm;
+}
+/*styling footer of the page*/
+footer{
+  position: relative;
+  width: 100%;
+  background-color: rgb(114, 114, 228);
+  color: rgb(22, 22, 22);
+  text-align: center;
+  height: 50px;
+  padding: 8px;
+  text-align: center;
+}
+/*styling h4 tag*/
+h4{
+  margin-top:5px;
+  font-size: 19px;
+}

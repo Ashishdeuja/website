@@ -1,0 +1,89 @@
+/*Styling the html languages using external css
+styling the body of home.html*/
+body{
+    background-image: url(home.jpg);
+}
+/*styling the div tag*/
+div{
+    float: right;
+    margin-top: 5px;
+    font-size: medium;   
+}
+/*styling text of a tag*/
+a{
+    color: rgb(0, 0, 0);
+    padding:5px 20px;
+    border: 1px solid rgb(100, 22, 22);  
+}
+/*making hover in the text of a tag*/
+a:hover{
+    background-color: rgb(255, 250, 184);
+    color:rgb(14, 13, 13);
+    cursor: pointer;
+}
+/*styling the page to show white color in nav bar when page is opened*/
+a.active{
+    background-color: #fff;
+    color: black;
+}
+/*styling the images of the img tag*/
+img{
+    border-radius: 30%;
+    width: 300px;
+}
+/*styling image class of img tag*/
+.image{
+    padding-left: 30%;
+    float: left;
+}
+/*styling the texts of table tag*/
+table{
+    text-align: justify;
+    border:1px;
+    width:50%;
+    margin-top: 7%;
+    margin-left:5%; 
+    margin-right:auto;
+}
+/*styling the heading class*/
+.heading{
+    color: black;
+    font-size: 2cm;
+    line-height: 15%;
+    margin-bottom: 25pt;
+}
+/*styling the texts of h2 tag*/
+h2{ 
+    font-size:1cm ;
+    margin-top: 0cm;
+    margin-left: 4%;
+    line-height: 0mm;
+}
+/*styling the circle class*/
+.circle{
+    font-size: 20px;
+    color: black;
+    margin-left: 5%;
+}
+/*styling social media icon*/
+.fa{
+    padding: 10px;
+    text-align: center;
+    color:rgb(25, 2, 230);
+}
+/*styling the pragraph*/
+p{  
+    margin-left: 5%;
+    font-size: 0.5cm;
+    margin-top: 0cm
+}
+/*styling footer of the page*/
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(188, 196, 171);
+    color: rgb(22, 22, 22);
+    text-align: center;
+}

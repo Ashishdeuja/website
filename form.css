@@ -1,0 +1,116 @@
+/*Styling the html languages using external css
+styling the body of contact.html*/
+body{
+  background-color: cornsilk;
+  background-image: url(img.jfif);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+/* styling nav bar*/
+nav{
+  float: right;
+  margin-top: 5px;
+  font-size: medium; 
+}
+/*styling text of a tag*/
+a{
+  color: rgb(0, 0, 0);
+  padding:5px 20px;
+  border: 1px solid rgb(100, 22, 22); 
+}
+/*making hover in the text of a tag*/
+a:hover{
+  background-color: rgb(255, 250, 184);
+  color:rgb(14, 13, 13);
+  cursor: pointer;
+}
+/*styling the page to show white color in nav bar when page is opened*/
+a.active{
+background-color: #fff;
+color: black;
+}
+/* styling the layout of div tag*/
+div{
+  margin-top: 15px;
+  width: 30%;
+  background-color: rgb(235, 203, 203);
+  padding: 20px;
+}
+/* styling the layout of input tag whose type is text*/
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background:transparent;
+  color: rgb(167, 255, 5);
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 4px;
+}
+/* styling the text area in the form*/
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  color: rgb(167, 255, 5);
+  background:transparent;
+  resize:none;
+}
+/* styling the layout of input tag whose type is email*/
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: transparent;
+  color: rgb(167, 255, 5);
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+}
+/* styling the layout of select tag */
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border:2px solid #cccccc;
+  border-radius: 4px;
+  background-color: transparent;
+  color: rgb(255, 105, 5);
+}
+/* styling the layout of input tag whose type is submit*/
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(204, 65, 151);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /*making hover in the text of input tag whose type is submit*/
+  input[type=submit]:hover {
+  background-color: rgb(8, 35, 184);
+}
+/*styling the form class*/
+.form{
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  background:rgba(0,0,0,0.7);
+}
+/*styling footer of the page*/
+footer{
+  color:deepskyblue;
+  text-align: center;
+  line-height: 0ch;
+}
+/*styling social media icon*/
+.fa{
+  margin-top: 1px;
+  padding: 20px;
+  text-align: center;
+  color:darkorange;
+}
+
+  

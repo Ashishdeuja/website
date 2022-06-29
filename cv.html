@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>curriculam vitae</title> <!---title of the page-->
+		<!--using meta tag-->
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!---using external css-->
+		<link rel="stylesheet" type="text/css" href="cv.css">
+		<!----link for social media sites-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!---using internal css to style img tag-->
+		<style>
+			img{
+                height:175px;
+                width:229px;
+            }
+		</style>
+    </head>
+    <body>
+		<!--developing navigation bar of the page-->
+		<nav>
+			<b>			
+				<a href="index.html">Home</a> 
+			    <a class="active" href="#">CV and Portfolio</a> 
+			    <a href="blog.html">Blog</a> 
+			    <a href="contact.html">Contact</a>
+			    <a href="help.html">Research</a>
+			</b>
+		</nav><br><br>
+
+		<div class="container">
+			<div class="section">   
+				<!---using inline css-->
+                <div class="cv" align="center" style="background-color:#c8ecb3">
+			        <h1>Curriculum Vitae</h1>
+					<!--making table by using table tag-->
+			        <table border="1">	
+						<!--tr tags defines the row of the table-->					                
+                        <tr>
+							<!--td tag defines the column of the table-->
+					        <td width="40%">														
+		                        <figure>
+									<img src= "image.jpg"  id="i1" class="hide img" alt="mypicture">
+						            <img  src="mypic.jpg" id="i2" class="hide img">
+						        </figure> 
+		                        <button onclick="toogle()"><b>Change pic</b></button>
+					        </td>		
+	                        <td>
+						        <h2>Ashish Deuja</h2>
+					        </td><br>
+                        </tr>
+			        </table>
+                    <table border="1">
+                    <tr>
+	                    <td colspan="4">
+                            <h2>Personal Information</h2><br>				 
+				            Father Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Krishna Bahadur Deuja  <br>
+		                    Date of Birth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2060/10/21 (2004-feb-4)<br>
+		                    Sex: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male<br>
+		                    Permanent Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pakhribas, Dhankuta<br>
+	                        Temporary Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Biratnagar, Morang<br>
+		                    Phone-number: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9812300815<br>
+		                    Maritial Status:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Single<br>
+		                    Nationality: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nepali<br>
+		                    E-mail: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aasishdeuja@gmail.com<br>
+				        </td>
+				    </tr>
+	                <tr>
+	                    <td colspan="4">
+						    <h2>Education Qualification</h2>
+					    </td>
+				    </tr>         
+		            <tr>
+			            <td width=20%>Date</td>
+					    <td>Level</td>
+					    <td>School/College</td>
+					    <td>Grade</td>
+		            </tr>
+		            <tr>
+			            <td>2018</td>
+					    <td>SEE</td>
+					    <td>Budhanilakantha Sec.Eng School</td>
+					    <td>A</td>
+		            </tr>
+		            <tr>
+			            <td>2020</td>
+					    <td>SLC</td>
+					    <td>Bhanu Memorial Higher Sec.Eng School</td>
+					    <td>A</td>
+		            </tr>
+		            <tr>
+			            <td colspan="4">Bachelor 1st year running in Itahari International College</td>
+		            </tr>
+			        <tr>
+				        <td colspan="4" align="center">
+					        <h2>Hobbies</h2>
+                            Playing football<br>
+					        Reading books<br>
+					        Travelling<br>
+				        </td>
+			       </tr>
+			       <tr>
+				       <td colspan="4" align="center">
+                           <h2>Skills</h2>
+				           html,css,javascript basic<br>
+				           java programming basic<br>
+				           good communication
+				        </td>
+			        </tr>
+		            </table>
+	            </div>
+	        </div>  
+			<!--defining the divison in the page-->
+		    <div class="sidebar">
+			    <h3>
+					Click on clickme button to<br>
+				    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				    view portfolio
+				</h3>
+				<!---making button to open pop up-->
+				<button class="open-button" onclick="openForm()"><b>Click me</b></button>
+
+				
+			</div>
+			<div class="blur"></div>
+			<div class="change" id="popup1">
+				<div class="box">
+					<button class="cancel-button" onclick="closeForm()">x</button><br>
+					<h4>Portfolio</h4>
+					<!---inserting the image-->
+					<img src="ashish.jpg" class="picture">
+					<h4>I am a web developer</h4>
+					<!---writing a paragraph-->
+					<p>
+						I am Ashish Deuja, a upcomming web developer. I have many things to do in the life.
+						I have got different skills like basic knowledge of html, css and javascript. Similarly, 
+						I also have the good communication skill and some basic knowledge on java programming language.
+						My hobbies is to travel new places through bike, play football and read books in the
+						free time. I have also visited many places during the vacation.<br><br>
+						I am currently completing a BSC(hons) in computing at Itahari International College. 
+						I enjoy traveling and reading. Similarly, I enjoy coding and creating games, websites 
+						and apps. I am courteous and gentle, and I am sure that one day I will reach the pinnacle 
+						of success. I have learnt that to succed I have to keep trying and work hard without thinking
+						much about the consequences. I also hope that one day I will be able to achieve my dream.
+					</p>
+					<h4> For more information view here</h4>
+					<a href="https://www.facebook.com/ashishdeuja.2"class="fa fa-facebook fa-2x"></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/aashishdeuja/" class="fa fa-instagram fa-2x"></a>
+				</div>
+					
+		    </div>
+	    </div>   
+		<!---using java script-->
+		<script>
+			function toogle(){
+                var img1=document.getElementById("i1");
+                var img2=document.getElementById("i2");
+                if(img2.style.display=="none"){
+                    img1.style.display="none"; //img1 will disappear
+                    img2.style.display="block"; //img2 will appear
+                }
+                else{
+                    img2.style.display="none";  //img2 will disappear
+                    img1.style.display="block"; // img1 will appear
+                }
+            }
+            var img1=document.getElementById("i1");
+            img1.style.display="block";  
+
+			function openForm(){
+			    document.getElementById("popup1").style.display = "block";  // popup appears
+			    document.getElementsByClassName('blur')[0].style.display="block"; // background image appears when popup appears
+			}
+			
+			function closeForm() {
+			    document.getElementById("popup1").style.display = "none";    // popup disappears
+			    document.getElementsByClassName('blur')[0].style.display="none"; // background image disappears when popup disappears
+			}
+			
+		</script> 
+		<!--using foter tag for making footer of the page-->
+	    <footer>
+            <h5>© 2021 Ashish | All Rights Reserved</h5>
+        </footer>
+		
+    </body>
+</html>
+

@@ -1,0 +1,95 @@
+<html>
+<head>
+    <!---title of the page-->
+    <title>contact form</title>
+    <!--using meta tag-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---using external css-->
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <!----link for social media sites-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!---using internal css to style img tag-->
+    <style>
+        h1{
+            text-align: center;
+            line-height: 1px;
+            color: rgb(255, 99, 71);
+        }
+        h2{
+            font-size: medium;
+            color:rgb(241, 241, 241);
+        }
+    </style>
+</head>
+<body>
+    <!--developing navigation bar of the page-->
+    <nav>
+        <b> <a href="index.html">Home</a> 
+         <a href="cv.html">CV and Portfolio</a> 
+         <a href="blog.html">Blog</a> 
+         <a  class="active" href="#">Contact</a>
+         <a href="help.html">Research</a></b>
+         </nav>
+         <!--making divison of form class-->
+         <div class="form" style="background-color:rgba(0,0,0,0.7)">    <!---using inline css-->
+             <form name="messageform" onsubmit="validation()">                 
+                 <h1>Contact us</h1>   <!--heading-->
+                 <h2>
+                     First Name:<br>
+                     <input type = "text" name="FirstName" placeholder="your fname" required></br>
+                     Last Name:<br>
+                     <input type= "text" name= "LastName" placeholder="your lname" required><br>
+                     E-mail:<br>
+                     <input type= "email" name= "email" placeholder=" your email " required><br>
+                     Country:<br>
+                     <select name="country">
+                         <option value="Nepal">Nepal</option>
+                         <option value="India">India</option>
+                         <option value="Bhutan">Bhutan</option>
+                         <option value="Australia">Australia</option>
+                         <option value="Canada">Canada</option>
+                         <option value="USA">USA</option>
+                         <option value="UK">United kingdom</option>
+                         <option value="Japan">Japan</option>
+                         <option value="China">China</option>
+                         <option value="Mexico">Mexico</option>
+                         <option value="Netharland">Netharland</option>
+                         <option value="France">France</option>
+                         <option value="Germany">Germany</option>
+                         <option value="UAE">United Arab Emirates</option>
+                         <option value="Thailand">Thailand</option>
+                         <option value="Argentina">Argentina</option>
+                         <option value="Brazil">Brazil</option>
+                         <option value="Portugal">Portugal</option>
+                     </select>
+                     Message:<br>
+                     <textarea input type="text" name="message" placeholder=" your message" rows="10" cols="50" ></textarea><br>
+                     <input type= "submit" value= "Submit"><br>
+                 </h2>
+                 <!--using foter tag for making footer of the page-->
+                 <footer>
+                     <h3>Follow me on here </h3>
+                     <a href="https://www.facebook.com/ashishdeuja.2"class="fa fa-facebook fa-2x"></a>
+                     <a href="https://www.instagram.com/aashishdeuja/" class="fa fa-instagram fa-2x"></a><br>
+                     <h4>                         
+                         © 2021 Ashish | All Rights Reserved</h4>
+                 </footer>                        
+             </form>
+         </div>
+         <!---using java script-->
+         <script>
+             function validation(){
+                var FirstName=document.forms["messageform"]["FirstName"].value;
+                var LastName=document.forms["messageform"]["LastName"].value;
+                var email=document.forms["messageform"]["email"].value;
+
+                if(email==""||FirstName.length<="5"||LastName==""){
+                    alert("Sorry!! You haven't inserted the valid data.");   // displays message if data is incorrect
+                }
+                else{
+                    alert("THANK YOU !! Your information is sucessfully submitted."); // displays message if data is correct
+                }
+             }
+         </script>
+</html>
